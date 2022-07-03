@@ -1,0 +1,18 @@
+// scss-docs-start theme-color-variables
+$primary:       #b33e4e;
+$btn-primary: #b33e4e;
+ 
+// scss-docs-end theme-color-variables
+
+
+// Typography
+
+// stylelint-enable value-keyword-case
+$font-family-base:            'Lato', sans-serif;
+// scss-docs-start headings-variables
+$headings-font-family:        'Oswald', sans-serif;
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-base:              1.6rem !default; // Assumes the browser default, typically `16px`
+

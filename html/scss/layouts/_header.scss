@@ -1,0 +1,48 @@
+.header{
+    font-family: $headings-font-family;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    &-top{
+        padding: 15px 0;
+        ul{
+            li{
+                margin-left: 20px;
+                padding: 0 5px;
+            }
+        }
+    }
+    &-main{
+        background-color: $white;
+        padding: 15px 0;
+        .container{
+            display: flex;
+            align-items: center;
+        }
+        &__nav{
+            li{
+                margin-left: 35px;
+                a{
+                    padding: 0 5px;
+                    letter-spacing: 1;
+                }
+            }
+        }
+        &__misc{
+            margin-left:50px;
+        }
+    }
+    .logo{
+        a{
+            img{
+                max-width: 7.5rem;
+                @include media-breakpoint-up(lg){
+                    
+                }
+            }
+            
+        }
+    }
+    
+}
