@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "autoprefixer": "autoprefixer -r assets/css/style.css",
-    "scss": "node-sass --source-map true --output-style compressed -o assets/css scss",
+    "build": "node-sass --source-map true --output-style compressed -o assets/css scss",
     "watch:scss": "node-sass -w scss  --source-map true --output-style compressed -o assets/css scss"
   },
   "author": "",
